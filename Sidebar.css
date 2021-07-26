@@ -1,0 +1,40 @@
+.sidebar{
+    height: 100vh;
+    flex: 0.2; 
+    background-color: rgb(2, 2, 2);
+    color: white;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.sidebar__top{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sidebar__image{
+    width: 20%;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.sidebar__clonealert{
+    color: #1CD760 !important;
+}
+
+.sidebar__title{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sidebar__horizontalrow{
+    border: 1px solid rgb(37, 37, 37);
+    width: 95%;
+    margin: 10px auto;
+}
+
+.sidebar__clonealert > a{
+    text-decoration: none;
+    color: #1CD760 !important
+}

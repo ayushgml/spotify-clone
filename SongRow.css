@@ -1,0 +1,25 @@
+.songrow{
+    margin-left: 20px;;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    color:white;
+}
+.songRow__album {
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+}
+.songrow_info {
+    margin-left: 20px;
+}
+
+.songrow_info > h1 {
+    font-size: 16px;
+}
+
+.songrow_info > p {
+    color: gray;
+    font-size: 14px;
+    margin-top: 3px;
+}

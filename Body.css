@@ -1,0 +1,95 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.body{
+    flex: 0.8;
+    background: linear-gradient( rgb(115, 87, 110), rgba(0, 0, 0, 1));
+    padding: 30px;
+    height: 100vh;
+    color: white;
+    overflow-y: overlay;
+    margin-bottom: 60px;
+}
+
+.body__info > img {
+    width:50%;
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.body__info{
+    display: flex;
+    flex-direction: row;
+}
+
+.body__infoText{
+    padding-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+}
+
+.body__info > img {
+    width:200%;
+    object-fit: contain;
+}
+
+.body__infoText > h1{
+    font-size: 100px;
+}
+
+.body__infoText > p{
+    font-weight: 400;
+    color: grey;
+}
+
+.body__icons{
+    display: flex;
+    align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+
+.body__playicon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 70px !important;
+    color: #1CD760;
+}
+
+.body__playicon:hover{
+    transition: transform 0.2s ease-in-out !important;
+    transform: scale(1.08) !important;
+    cursor: pointer;
+}
+
+.body__songs{
+    margin: 20px -30px;
+}
+
+@media (max-width:820px){
+    .body__info{
+        flex-direction: column;
+    }
+
+    .body__info > img {
+        width:130%;
+        object-fit: contain;
+    }
+
+    .body__infoText{
+        padding-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex: 1;
+    }
+}
+
+/* box-shadow: 0 4px 60px rgba(0, 0, 0, 0.657); */
